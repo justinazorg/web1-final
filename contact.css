@@ -1,0 +1,131 @@
+body {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.greeting {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 140pt;
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.name {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20pt;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.justin_groza {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 55pt;
+    color: #d12229;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.summary_intro {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17pt;
+    grid-column: 3;
+    /* grid-row: 1; */
+}
+
+.student {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17pt;
+    color: #d12229;
+    grid-column: 3;
+    /* grid-row: 1; */
+}
+
+.welcome {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17pt;
+    grid-column: 3;
+    /* grid-row: 1; */
+}
+
+.portfolio {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17pt;
+    color: #d12229;
+    grid-column: 3;
+    /* grid-row: 1; */
+}
+
+.about_me_head {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 35pt;
+    color: #d12229;
+    grid-column: 2;
+    grid-row: 2;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+img {
+    width: 400px;
+    grid-column: 2;
+}
+
+.about_me_text {
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+    grid-column: 2;
+}
+
+h4 {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18pt;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+form {
+    grid-column: 2;
+    grid-row: 3;
+    align-items: end;
+}
+
+input, select, textarea {
+    font-family: Helvetica, sans-serif;
+    font-size: 12pt;
+    /* grid-column: 2;
+    grid-row: 3; */
+}
+
+input, textarea {
+    width: 200px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /* grid-column: 2;
+    grid-row: 3; */
+}
+
+label {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14pt;
+    /* grid-column: 2;
+    grid-row: 3; */
+}
+
+input[type=submit] {
+    width: 100px;
+}
