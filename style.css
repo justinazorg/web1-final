@@ -252,3 +252,10 @@ input[type=submit] {
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+  @media only screen and (max-width: 600px) {
+    .site_info,
+    .top_6 {
+      grid-template-columns: 1fr;
+    }
+}
