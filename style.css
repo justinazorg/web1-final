@@ -1,3 +1,7 @@
+body {
+    background-color: whitesmoke;
+}
+
 .site_info {
     display: grid;
     grid-template-columns: 350px 350px 350px;
@@ -50,6 +54,8 @@ h3 {
     font-weight: 500;
     font-size: 24pt;
     color: black;
+    text-shadow: 1px 1px #a3a3a3;
+    margin-left: 50px;
 }
 
 .intro_grid {
@@ -69,8 +75,10 @@ h3 {
     font-size: 14pt;
     font-weight: 300;
     color: #d12229;
+    text-shadow: 1px 1px #a3a3a3;
     margin-top: 0;
     margin-bottom: 0;
+    margin-left: 50px;
 }
 /* 
 .welcome {
@@ -106,6 +114,7 @@ li {
 img {
     height: 300px;
     width: 300px;
+    box-shadow: 7px 7px #b9b9b9;
     /* border: black 5px; */
     /* margin: 25px 25px 25px 25px; */
 }
