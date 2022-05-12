@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-  }
+}
 
 body {
     background-color: whitesmoke;
@@ -129,12 +129,15 @@ form {
     align-items: end;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
     font-family: Helvetica, sans-serif;
     font-size: 12pt;
 }
 
-input, textarea {
+input,
+textarea {
     width: 200px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -184,9 +187,9 @@ input[type=submit] {
 .container {
     position: relative;
     width: 100%;
-  }
-  
-  .overlay {
+}
+
+.overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -197,13 +200,13 @@ input[type=submit] {
     opacity: 0;
     transition: .5s ease;
     background-color: #222222;
-  }
-  
-  .container:hover .overlay {
+}
+
+.container:hover .overlay {
     opacity: 80%;
-  }
-  
-  .caption {
+}
+
+.caption {
     font-family: Helvetica, sans-serif;
     color: white;
     font-size: 20px;
@@ -214,11 +217,18 @@ input[type=submit] {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-  }
+}
 
-  @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
+
     .site_info,
-    .top_6 {
-      grid-template-columns: 1fr;
+    .top_6,
+    .works {
+        grid-template-columns: 1fr;
+    }
+    .overlay {
+        position: absolute;
+        height: 300px;
+        width: 300px;
     }
 }
